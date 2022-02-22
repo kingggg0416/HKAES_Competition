@@ -1,0 +1,466 @@
+@font-face {
+    font-family: Avenir;
+    src: url(../font/Avenir.otf);
+}
+@font-face {
+    font-family: Avenir-Black;
+    src: url(../font/Avenir-Black.otf);
+}
+@font-face {
+    font-family: Avenir-Roman;
+    src: url(../font/Avenir-Roman.otf);
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    position: relative;
+}
+
+
+.home{
+    background-color: rgb(250, 250, 250);
+    position: relative;
+    
+}
+
+.grid-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* index.html*/
+
+.message{
+    position: inherit;
+}
+
+.message > * {
+    position: inherit;
+}
+
+.welcome-to {
+    font-family: Avenir,sans-serif;
+    color: #e0643a;
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16%;
+}
+
+.aiguard {
+    font-family: Avenir-Black, sans-serif;
+    color: #011318;
+    font-size: 5.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 4%;
+
+}
+
+.slogan {
+    font-family: Avenir, sans-serif;
+    color: #a5a8ac;
+    font-size:  2rem;
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.machine-logo{
+    text-align: center;
+    vertical-align: center;
+}
+
+
+.machine-logo img {
+    display: inline-block;
+    width: 55%;
+    height: auto;
+    z-index: 2;
+}
+
+.startbutton{
+    font-family: Avenir, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 0.9;
+    text-align: center;
+    color: #fff;
+    background: #172258;
+    border-radius: 15px;
+    padding: 3%;
+    width: 78%;
+    height: 20%;
+    margin: 10% auto;
+}
+
+
+
+/* country.html */
+.start{
+    font-family: Avenir-Black , sans-serif;
+    color: #151515;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 15% 40% 5% 7%;
+    /*margin: 8vh 40vw 2vh 4vw;*/
+}
+
+.progressbar-1 {
+    background-color: #dfddde;
+    width: 84%;
+    height: 6%;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.progressbar-1 .colorrectangle-1 {
+    position: absolute;
+    background-color: #e0643a;
+    width: 21%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.selectcountry {
+    color: #011318;
+    font-family: Avenir-Black, sans-serif;
+    font-size: 3.5rem;
+    margin-top: 9%;
+    margin-left: 7%;
+
+}
+
+.choosecountry {
+    color: #011318;
+    font-family: Avenir-Roman, sans-serif;
+    margin-top: 2%;
+    font-size: 0.5em;
+}
+
+.countryselection{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.countryselection .country{
+    font-family: Avenir-Black, sans-serif;
+    font-size: 2.5rem;
+    background-color: #e2eaf8;
+    margin-bottom: 2%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 4%;
+
+}
+
+.countryselection .country .australia{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 15%;
+}
+
+.countryselection .country .hk{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 17.5%;
+}
+
+.countryselection .country .newzealand{
+    position: absolute;
+    top : 0;
+    left: 7.4%;
+    width: 11%;
+}
+
+.moretocome {
+    font-family: Avenir, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+
+
+
+
+/* language.html*/
+
+.next-step{
+    font-family: Avenir-Black , sans-serif;
+    color: #151515;
+    font-size: 4vh;
+    font-weight: 900;
+    margin: 8vh 40vw 2vh 4vw;
+}
+
+.progressbar-2 {
+    background-color: #dfddde;
+    width: 82vw;
+    height: 2vh;
+    border-radius: 15px;
+    margin: 0vh 4vw;
+    
+}
+
+.progressbar-2 .colorrectangle-2 {
+    background-color: #e0643a;
+    width: 41vw;
+    border-radius: 15px;
+    height: 2vh;
+}
+
+.selectlanguage {
+    color: #011318;
+    font-family: Avenir-Black, sans-serif;
+    text-align: left;
+    font-size: 5vh;
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+
+.chooselanguage {
+    color: #011318;
+    font-family: Avenir-Roman, sans-serif;
+    text-align: left;
+    margin-left: 4vw;
+    margin-top: 0.5vh;
+    font-size: 2.4vh;
+}
+
+.flag {
+    margin-top: 10vh;
+}
+
+.uk {
+    display: inline-block;
+    width: 28vw;
+    height: auto;
+    margin-left: 12vw;
+    background-color: #e2eaf8;
+    padding: 5vh;
+    border-radius: 2vh;
+
+}
+
+.china{
+    display: inline-block;
+    width: 28vw;
+    height: auto;
+    margin-left: 20vw;
+    margin-right: 7vw;
+    background-color: #e2eaf8;
+    padding: 5vh;
+    border-radius: 2vh;
+}
+
+.continue-1 {
+    text-align: right;
+}
+
+.nextpage-1 {
+    display: inline-block;
+    width: 12vw;
+    margin-top: 20.5vh;
+    margin-right: 8vw;
+    
+}
+
+/* workflow.html */
+
+.almost-there{
+    font-family: Avenir-Black , sans-serif;
+    color: #151515;
+    font-size: 4vh;
+    font-weight: 900;
+    margin: 8vh 40vw 2vh 4vw;
+}
+
+.progressbar-3 {
+    background-color: #dfddde;
+    width: 82vw;
+    height: 2vh;
+    border-radius: 15px;
+    margin: 0vh 4vw;
+    
+}
+
+.progressbar-3 .colorrectangle-3 {
+    background-color: #e0643a;
+    width: 70vw;
+    border-radius: 15px;
+    height: 2vh;
+}
+
+.chooseworkflow {
+    color: #011318;
+    font-family: Avenir-Black, sans-serif;
+    text-align: left;
+    font-size: 5vh;
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+
+.chooseworkflow-subtext {
+    color: #011318;
+    font-family: Avenir-Roman, sans-serif;
+    text-align: left;
+    margin-left: 4vw;
+    margin-top: 0.5vh;
+    font-size: 2.5vh;
+}
+
+.container-logo-1 {
+    position: relative;
+    margin-top: 10vh;
+    height: 20vh;
+    z-index: 2;
+}
+.container-logo-2 {
+    position: relative;
+    margin-top: 10vh;
+    height: 20vh;
+    z-index: 2;
+}
+
+.background-circle{
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    background: #e2eaf8;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 17vw;
+    margin-top: -56vw;;
+    
+}
+
+
+.language-logo{
+    display: inline-block;
+    width: 20vw;
+    margin-left: 20vw;
+    z-index: 2;
+
+
+}
+.vaccination-logo{
+    position: absolute;
+    display: inline-block;
+    width: 22vw;
+    margin-top: 3.5vh;
+    margin-left: 19vw;
+    z-index: 2;
+
+
+}
+
+
+.container-logo-2 {
+    height: 20vh;
+}
+.temperature-logo{
+    display: inline-block;
+    width: 15vw;
+    margin-left: 26vw;
+
+}
+.mask-logo{
+    position: absolute;
+    display: inline-block;
+    margin-top: 5vh;
+    width: 15vw;
+    margin-left: 20vw;
+
+}
+
+/*  complete.html */
+
+.congratulations{
+    font-family: Avenir-Black , sans-serif;
+    color: #151515;
+    font-size: 4vh;
+    font-weight: 900;
+    margin: 8vh 40vw 2vh 4vw;
+}
+
+.progressbar-5 {
+    background-color: #dfddde;
+    width: 82vw;
+    height: 2vh;
+    border-radius: 15px;
+    margin: 0vh 4vw;
+    
+}
+
+.progressbar-5 .colorrectangle-5 {
+    background-color: #e0643a;
+    width: 82vw;
+    border-radius: 15px;
+    height: 2vh;
+}
+
+.completemsg {
+    font-family: Anveir-Black, sans-serif;
+    color: #011318;
+    font-size: 4vh;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 14vh;
+
+}
+
+.complete-logo {
+    display: block;
+    width : 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+
+}
+
+.config-message {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    text-align: center;
+    font-family: Avenir, sans-serif;
+    font-size: 3vw;
+}
+
+.continue-2 {
+    text-align: right;
+
+}
+
+.nextpage-2 {
+    display: inline-block;
+    width: 12vw;
+    margin-top: 4vh;
+    margin-right: 8vw;
+    
+}
