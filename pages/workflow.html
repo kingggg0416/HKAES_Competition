@@ -12,15 +12,38 @@
     </head>
 
     <body class = "home">
-        <div class = "almost-there">Almost there!</div>
-        <div class = "progressbar-3">
-            <div class = "colorrectangle-3"></div>
-        </div>
-
-        <div class = "chooseworkflow">Choose your wrokflow</div>
-        <div class = "chooseworkflow-subtext">Customize flow to match your customers!</div>
-       
+        <div class = "grid-container">
+            <div class = "head">
+                <div class = "almost-there">Almost there!</div>
+                <div class = "progressbar-3">
+                    <div class = "colorrectangle-3"></div>
+                </div>
         
+                <div class = "chooseworkflow">Choose your wrokflow
+                    <div class = "chooseworkflow-subtext">Customize flow to match your customers!</div>        
+                </div>
+            </div>
+
+            <div>
+                <form action="">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="check1" name="workflowlist" value="mask">
+                      <label class="form-check-label" for="check1">Mask Check</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="check2" name="workflowlist" value="temperature">
+                      <label class="form-check-label" for="check2">Temperature Check</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="check2" name="workflowlist" value="vaccination">
+                      <label class="form-check-label">Vaccination Record Check</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                  </form>
+            </div>
+        </div>
+       
+        <!--
         <div>
             <div class = "container-logo-1">
                 <img class = "language-logo" src = "../img/language.png" srcset = "../img/language@2x.png 2x, ../img/language@3x.png 3x" alt = "language logo">
@@ -38,6 +61,8 @@
             <div class = "background-circle"></div>
             
         </div>
+        -->
+
 
         
 

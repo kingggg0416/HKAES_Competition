@@ -134,7 +134,7 @@ div {
 .progressbar-1 .colorrectangle-1 {
     position: absolute;
     background-color: #e0643a;
-    width: 21%;
+    width: 25%;
     border-radius: 15px;
     height: 100%;
 }
@@ -156,6 +156,8 @@ div {
 }
 
 .countryselection{
+    display: grid;
+    grid-gap: 20px;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
@@ -209,10 +211,6 @@ div {
     display: none;
 }
 
-form{
-    display: grid;
-    grid-gap: 20px;
-}
 
 .lblradio{
     color: rgb(0, 0, 0);
@@ -242,69 +240,73 @@ input[type=radio]:checked + .lblradio {
 .next-step{
     font-family: Avenir-Black , sans-serif;
     color: #151515;
-    font-size: 4vh;
+    font-size: 3rem;
     font-weight: 900;
-    margin: 8vh 40vw 2vh 4vw;
+    margin: 15% 40% 5% 7%;
 }
 
 .progressbar-2 {
     background-color: #dfddde;
-    width: 82vw;
-    height: 2vh;
+    width: 84%;
+    height: 6%;
     border-radius: 15px;
-    margin: 0vh 4vw;
-    
+    margin-top: 5%;
+    margin-left: 7%;
 }
 
 .progressbar-2 .colorrectangle-2 {
+    position: absolute;
     background-color: #e0643a;
-    width: 41vw;
+    width: 50%;
     border-radius: 15px;
-    height: 2vh;
+    height: 100%;
 }
 
 .selectlanguage {
     color: #011318;
     font-family: Avenir-Black, sans-serif;
-    text-align: left;
-    font-size: 5vh;
-    margin-top: 5vh;
-    margin-left: 4vw;
+    font-size: 3.5rem;
+    margin-top: 9%;
+    margin-left: 7%;
 }
 
 .chooselanguage {
     color: #011318;
     font-family: Avenir-Roman, sans-serif;
-    text-align: left;
-    margin-left: 4vw;
-    margin-top: 0.5vh;
-    font-size: 2.4vh;
+    margin-top: 2%;
+    font-size: 0.5em;
 }
 
-.flag {
-    margin-top: 10vh;
+
+.languageselection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
 }
 
-.uk {
-    display: inline-block;
-    width: 28vw;
-    height: auto;
-    margin-left: 12vw;
+.lang-inputbtn{
+    display: none;
+}
+
+
+.lblradio-2{
+    color: rgb(0, 0, 0);
     background-color: #e2eaf8;
-    padding: 5vh;
-    border-radius: 2vh;
-
+    margin-bottom: 2%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-top: 20%;
 }
 
-.china{
-    display: inline-block;
-    width: 28vw;
-    height: auto;
-    margin-left: 20vw;
-    margin-right: 7vw;
-    background-color: #e2eaf8;
-    padding: 5vh;
-    border-radius: 2vh;
+input[type=radio]:checked + .lblradio-2 {
+    background-color: #26c2f1;
 }
 
 .continue-1 {
@@ -324,43 +326,42 @@ input[type=radio]:checked + .lblradio {
 .almost-there{
     font-family: Avenir-Black , sans-serif;
     color: #151515;
-    font-size: 4vh;
+    font-size: 3rem;
     font-weight: 900;
-    margin: 8vh 40vw 2vh 4vw;
+    margin: 15% 40% 5% 7%;
 }
 
 .progressbar-3 {
     background-color: #dfddde;
-    width: 82vw;
-    height: 2vh;
+    width: 84%;
+    height: 6%;
     border-radius: 15px;
-    margin: 0vh 4vw;
+    margin-top: 5%;
+    margin-left: 7%;
     
 }
 
 .progressbar-3 .colorrectangle-3 {
+    position: absolute;
     background-color: #e0643a;
-    width: 70vw;
+    width: 75%;
     border-radius: 15px;
-    height: 2vh;
+    height: 100%;
 }
 
 .chooseworkflow {
     color: #011318;
     font-family: Avenir-Black, sans-serif;
-    text-align: left;
-    font-size: 5vh;
-    margin-top: 5vh;
-    margin-left: 4vw;
+    font-size: 3.5rem;
+    margin-top: 9%;
+    margin-left: 7%;
 }
 
 .chooseworkflow-subtext {
     color: #011318;
     font-family: Avenir-Roman, sans-serif;
-    text-align: left;
-    margin-left: 4vw;
-    margin-top: 0.5vh;
-    font-size: 2.5vh;
+    margin-top: 2%;
+    font-size: 0.5em;
 }
 
 .container-logo-1 {
