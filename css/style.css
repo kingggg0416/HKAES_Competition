@@ -95,6 +95,7 @@ div {
 }
 
 .startbutton{
+    text-decoration: none;
     font-family: Avenir, sans-serif;
     font-size: 3rem;
     font-weight: 900;
@@ -203,6 +204,35 @@ div {
     text-align: right;
 }
 
+
+.inputbtn{
+    display: none;
+}
+
+form{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.lblradio{
+    color: rgb(0, 0, 0);
+    font-family: Avenir-Black, sans-serif;
+    font-size: 2.5rem;
+    background-color: #e2eaf8;
+    margin-bottom: 2%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+input[type=radio]:checked + .lblradio {
+    background-color: #26c2f1;
+}
 
 
 
