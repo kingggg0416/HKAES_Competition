@@ -361,44 +361,53 @@ input[type=radio]:checked + .lblradio-2 {
     font-size: 0.5em;
 }
 
-.container-logo-1 {
-    position: relative;
-    margin-top: 10vh;
-    height: 20vh;
-    z-index: 2;
-}
-.container-logo-2 {
-    position: relative;
-    margin-top: 10vh;
-    height: 20vh;
-    z-index: 2;
+.form-check-1 {
+    margin-top: 10%;
+    text-align: center;
 }
 
-.background-circle{
-    position: absolute;
-    width: 25vw;
-    height: 25vw;
-    background: #e2eaf8;
-    border-radius: 50%;
-    z-index: 1;
-    margin-left: 17vw;
-    margin-top: -56vw;;
-    
-}
-
-
-
-
-.container-logo-2 {
-    height: 20vh;
-}
-
-.checkmask-label {
-    background-color: #26c2f1;
-    padding: 50px;
-    width: 20%;
+.mask-logo-wrapper {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: #e2eaf8;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.form-check-2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.temperature-logo-wrapper {
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2eaf8;
+    border-radius: 50%;
+    padding: 2%;
+    margin-right: 10%;  
+}
+
+.vaccination-logo-wrapper {
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2eaf8;
+    border-radius: 50%;
+    padding: 1%;
+    margin-left: 10%;
+}
+
+input[type=checkbox]:checked + .checklabel {
+    background-color: #26c2f1;
 }
 
 

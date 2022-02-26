@@ -29,19 +29,25 @@
             <div>
                 <form action="">
                     <div class="form-check-1">
-
-                    <input type="checkbox" class="form-check-input" id="checkmask" name="workflowlist" value="mask">
-                    <label class="checkmask-label" for="checkmask">
-                        <div>
-                            <img class = "mask-logo" src = "../img/mask.png" srcset = "../img/mask@2x.png 2x, ../img/mask@3x.png 3x" alt = "mask logo">
-                        </div>
-                    </label>
+                        <input type="checkbox" class="form-check-input" id="checkmask" name="workflowlist" value="mask">
+                        <label class="checklabel" for="checkmask">
+                            <div class = "mask-logo-wrapper  hoverable">
+                                <img  src = "../img/mask.png" srcset = "../img/mask@2x.png 2x, ../img/mask@3x.png 3x" alt = "mask logo">
+                            </div>
+                            <div>Mask</div>
+                        </label>
                     </div>
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="check2" name="workflowlist" value="temperature">
-                      <label class="form-check-label" for="check2">Temperature Check</label>
-                      <input type="checkbox" class="form-check-input" id="check2" name="workflowlist" value="vaccination">
-                      <label class="form-check-label">Vaccination Record Check</label>
+
+                    <div class="form-check-2">
+                        <input type="checkbox" class="form-check-input" id="checktemp" name="workflowlist" value="temperature">
+                        <label class="checklabel" for="checktemp">
+                            <img class = "temperature-logo-wrapper hoverable" src = "../img/temperature.png" srcset = "../img/temperature@2x.png 2x, ../img/temperature@3x.png 3x" alt = "temperature logo">
+                        </label>
+
+                        <input type="checkbox" class="form-check-input" id="checkvax" name="workflowlist" value="vaccination">
+                        <label class="checklabel" for = "checkvax">
+                            <img class = "vaccination-logo-wrapper hoverable"src = "../img/vaccination.png" srcset = "../img/vaccination@2x.png 2x, ../img/vaccination@3x.png 3x" alt = "vaccination logo">
+                        </label>
                     </div>
                 </form>
             </div>
