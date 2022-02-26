@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html class = "animate__animated animate__fadeInRight">
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>The AI Guard</title>
-         <!-- materialize icons, css & js -->
+        <!-- animate css-->
+        <link type = "text/css" rel="stylesheet" href="../css/animate.css">
+        <!-- materialize icons, css & js -->
         <link type="text/css" href="../css/materialize.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">       
         <link type = "text/css" rel = "stylesheet" href = "../css/style.css">
     </head>
 
     <body class = "home">
-        <div class = "next-step">Next Step...</div>
-        <div class = "progressbar-2">
-            <div class = "colorrectangle-2"></div>
-        </div>
+        <div class = "grid-container">
+            <div class = "head">
+                <div class = "next-step">Next Step...</div>
+                <div class = "progressbar-2">
+                    <div class = "colorrectangle-2"></div>
+                </div>
+        
+                <div class = "selectlanguage">Select language
+                    <div class = "chooselanguage">Choose your preferred language</div>
+                </div>
+            </div>
 
-        <div class = "selectlanguage">Select language</div>
-        <div class = "chooselanguage">Choose your preferred language</div>
-
-        <div class = "flag">
-            <img class = "waves-effect uk hoverable" src = "../img/uk.png" srcset = "../img/uk@2x.png 2x , ../img/uk@3x.png 3x" alt = "an UK logo">
-            <img class = "waves-effect china hoverable" src = "../img/china.png" srcset = "../img/china@2x.png 2x , ../img/china@3x.png 3x" alt = "a China logo">
-        </div>
-
-        <div class = "continue-1">
-            <img class = "nextpage-1" src = "../img/next.png" srcset = "../img/next@2x.png 2x, ../img/next@3x.png 3x" alt = "next page">
-        </div>
-
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.fixed-action-btn');
-        var instances = M.FloatingActionButton.init(elems, options);
-      });
     
-      </script>   
-<div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-      <i class="large material-icons">insert_chart</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-    </ul>
-  </div>
+            <div class = lang-body>
+                <form class = "languageselection" action = "">
+                    <input class = "lang-inputbtn" type="radio" id ="1" name = "languagelist" value = "english">
+                    <label for = "1" class = "lblradio-2 hoverable">
+                        <div class = "display-box">
+                            <img src = "../img/uk.png" srcset = "../img/uk@2x.png 2x , ../img/uk@3x.png 3x" alt = "an UK logo"> 
+                        </div>
+                    </label>
+                    <input class = "lang-inputbtn" type="radio" id ="2" name = "languagelist" value = "chinese">
+                    <label for = "2" class = "lblradio-2 hoverable">
+                        <div class = "display-box">
+                            <img src = "../img/china.png" srcset = "../img/china@2x.png 2x , ../img/china@3x.png 3x" alt = "a China logo">
+                        </div>
+                    </label>
 
 
+                </form>
+            </div>
+    
+            <div class = "continue-1">
+                <img class = "nextpage-1" src = "../img/next.png" srcset = "../img/next@2x.png 2x, ../img/next@3x.png 3x" alt = "next page">
+            </div>
+        </div>
 
 
-
-        <script type="text/javascript" src="../js/materialize.min.js"></script>
+        <script type="text/javascript" src="../js/materialize.min.js"> </script>
     </body>
 </html>
