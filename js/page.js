@@ -4,6 +4,10 @@ let user_input = {
     workflow_preference : []
 }
 
-function recordcountry(value) {
+function record_country(value) {
     user_input.country = value;
+}
+
+function record_language(value) {
+    user_input.language = value;
 }

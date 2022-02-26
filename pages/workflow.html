@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html class = "animate__animated animate__fadeInRight">
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>The AI Guard</title>
+        <!-- animate css-->
+        <link type = "text/css" rel="stylesheet" href="../css/animate.css">
          <!-- materialize icons, css & js -->
         <link type="text/css" href="../css/materialize.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
@@ -19,27 +21,29 @@
                     <div class = "colorrectangle-3"></div>
                 </div>
         
-                <div class = "chooseworkflow">Choose your wrokflow
+                <div class = "chooseworkflow">Choose your workflow
                     <div class = "chooseworkflow-subtext">Customize flow to match your customers!</div>        
                 </div>
             </div>
 
             <div>
                 <form action="">
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="check1" name="workflowlist" value="mask">
-                      <label class="form-check-label" for="check1">Mask Check</label>
+                    <div class="form-check-1">
+
+                    <input type="checkbox" class="form-check-input" id="checkmask" name="workflowlist" value="mask">
+                    <label class="checkmask-label" for="checkmask">
+                        <div>
+                            <img class = "mask-logo" src = "../img/mask.png" srcset = "../img/mask@2x.png 2x, ../img/mask@3x.png 3x" alt = "mask logo">
+                        </div>
+                    </label>
                     </div>
                     <div class="form-check">
                       <input type="checkbox" class="form-check-input" id="check2" name="workflowlist" value="temperature">
                       <label class="form-check-label" for="check2">Temperature Check</label>
-                    </div>
-                    <div class="form-check">
                       <input type="checkbox" class="form-check-input" id="check2" name="workflowlist" value="vaccination">
                       <label class="form-check-label">Vaccination Record Check</label>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
-                  </form>
+                </form>
             </div>
         </div>
        

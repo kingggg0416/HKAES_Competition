@@ -198,13 +198,6 @@ div {
     width: 11%;
 }
 
-.moretocome {
-    font-family: Avenir, sans-serif;
-    font-size: 1.5rem;
-    margin-top: 4%;
-    margin-right: 10%;
-    text-align: right;
-}
 
 
 .inputbtn{
@@ -231,6 +224,14 @@ div {
 input[type=radio]:checked + .lblradio {
     background-color: #26c2f1;
 }
+
+.next .nextbtn{
+    display: block;
+    margin-top: 10%;
+    margin-right: 10%;
+    text-align: right;
+}
+
 
 
 
@@ -298,7 +299,7 @@ input[type=radio]:checked + .lblradio {
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
-    padding: 4%;
+    padding: 10%;
     text-align: center;
     cursor: pointer;
     transition: all 0.2s ease-in;
@@ -309,16 +310,12 @@ input[type=radio]:checked + .lblradio-2 {
     background-color: #26c2f1;
 }
 
-.continue-1 {
-    text-align: right;
-}
 
-.nextpage-1 {
-    display: inline-block;
-    width: 12vw;
-    margin-top: 20.5vh;
-    margin-right: 8vw;
-    
+.next-2 .nextbtn-2 {
+    display: block;
+    margin-top: 10%;
+    margin-right: 10%;
+    text-align: right;
 }
 
 /* workflow.html */
@@ -390,43 +387,21 @@ input[type=radio]:checked + .lblradio-2 {
 }
 
 
-.language-logo{
-    display: inline-block;
-    width: 20vw;
-    margin-left: 20vw;
-    z-index: 2;
-
-
-}
-.vaccination-logo{
-    position: absolute;
-    display: inline-block;
-    width: 22vw;
-    margin-top: 3.5vh;
-    margin-left: 19vw;
-    z-index: 2;
-
-
-}
 
 
 .container-logo-2 {
     height: 20vh;
 }
-.temperature-logo{
-    display: inline-block;
-    width: 15vw;
-    margin-left: 26vw;
 
+.checkmask-label {
+    background-color: #26c2f1;
+    padding: 50px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.mask-logo{
-    position: absolute;
-    display: inline-block;
-    margin-top: 5vh;
-    width: 15vw;
-    margin-left: 20vw;
 
-}
+
 
 /*  complete.html */
 
