@@ -38,7 +38,7 @@ div {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 33.3% 33.3% 33.3%;
 }
 
 /* index.html*/
@@ -162,42 +162,6 @@ div {
     margin-top: auto;
     margin-bottom: auto;
 }
-
-
-.countryselection .country{
-    font-family: Avenir-Black, sans-serif;
-    font-size: 2.5rem;
-    background-color: #e2eaf8;
-    margin-bottom: 2%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    padding: 4%;
-
-}
-
-.countryselection .country .australia{
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    width: 15%;
-}
-
-.countryselection .country .hk{
-    position: absolute;
-    top: 20%;
-    left: 4%;
-    width: 17.5%;
-}
-
-.countryselection .country .newzealand{
-    position: absolute;
-    top : 0;
-    left: 7.4%;
-    width: 11%;
-}
-
 
 
 .inputbtn{
@@ -390,7 +354,7 @@ input[type=radio]:checked + .lblradio-2 {
     text-align: center;
     cursor: pointer;
     transition: all 0.2s ease-in;
-    margin-top: 30%;
+    margin-top: 15%;
 }
 
 .workflowselection-2 .lblradio-3 {
@@ -403,6 +367,67 @@ input[type=radio]:checked + .lblradio-2 {
 input[type=checkbox]:checked + .lblradio-3 {
     background-color: #26c2f1;
 }
+
+.next-3 .nextbtn-3 {
+    display: block;
+    margin-top: 10%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+
+
+/*  workflow_confirm.html */
+
+.workflow-confirm-design {
+    color: rgb(0, 0, 0);
+    font-family: Avenir-Black, sans-serif;
+    font-size: 2.5rem;
+    background-color: #e2eaf8;
+    margin-bottom: 2%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.progressbar-4 {
+    background-color: #dfddde;
+    width: 84%;
+    height: 6%;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: 7%;
+    
+}
+
+.progressbar-4 .colorrectangle-4 {
+    position: absolute;
+    background-color: #e0643a;
+    width: 90%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.confirmworkflow {
+    color: #011318;
+    font-family: Avenir-Black, sans-serif;
+    font-size: 3.5rem;
+    margin-top: 9%;
+    margin-left: 7%;
+}
+
+.confirmworkflow-subtext {
+    color: #011318;
+    font-family: Avenir-Roman, sans-serif;
+    margin-top: 2%;
+    font-size: 0.5em;
+}
+
 
 
 
