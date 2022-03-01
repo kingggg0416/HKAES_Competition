@@ -27,56 +27,68 @@
             </div>
 
             <div>
+                <form class = "workflowselection-1" action = "">
+                    <input class = "workflow-inputbtn" type="checkbox" id ="1" name = "workflowlist" value = "mask" onclick = "record_mask()">
+                    <label for = "1" class = "lblradio-3 hoverable">
+                        <div class = "display-box">
+                            <img  src = "../img/mask.png" srcset = "../img/mask@2x.png 2x, ../img/mask@3x.png 3x" alt = "mask logo">
+                        </div>
+                    </label>
+                    
+                    <input class = "lang-inputbtn" type="checkbox" id ="2" name = "workflowlist" value = "temperature" onclick = "record_temp()">
+                    <label for = "2" class = "lblradio-3 hoverable">
+                        <div class = "display-box">
+                            <img src = "../img/temperature.png" srcset = "../img/temperature@2x.png 2x, ../img/temperature@3x.png 3x" alt = "temperature logo">
+                        </div>
+                    </label>
+                </form>
+
+                <form class = "workflowselection-2" action = "">
+                    <input class = "lang-inputbtn" type="checkbox" id ="3" name = "workflowlist" value = "vaccination" onclick = "record_vax()">
+                    <label for = "3" class = "lblradio-3 hoverable">
+                        <div class = "display-box">
+                            <img src = "../img/vaccination.png" srcset = "../img/vaccination@2x.png 2x, ../img/vaccination@3x.png 3x" alt = "vaccination logo">
+                        </div>
+                    </label>
+
+                </form>
+
+
+
+                <!--
                 <form action="">
-                    <div class="form-check-1">
                         <input type="checkbox" class="form-check-input" id="checkmask" name="workflowlist" value="mask">
                         <label class="checklabel" for="checkmask">
                             <div class = "mask-logo-wrapper  hoverable">
                                 <img  src = "../img/mask.png" srcset = "../img/mask@2x.png 2x, ../img/mask@3x.png 3x" alt = "mask logo">
                             </div>
-                            <div>Mask</div>
                         </label>
-                    </div>
 
-                    <div class="form-check-2">
                         <input type="checkbox" class="form-check-input" id="checktemp" name="workflowlist" value="temperature">
                         <label class="checklabel" for="checktemp">
-                            <img class = "temperature-logo-wrapper hoverable" src = "../img/temperature.png" srcset = "../img/temperature@2x.png 2x, ../img/temperature@3x.png 3x" alt = "temperature logo">
+                            <div class = "temp-logo-wrapper  hoverable">
+                                <img class = "temperature-logo-wrapper hoverable" src = "../img/temperature.png" srcset = "../img/temperature@2x.png 2x, ../img/temperature@3x.png 3x" alt = "temperature logo">
+                            </div>
                         </label>
 
                         <input type="checkbox" class="form-check-input" id="checkvax" name="workflowlist" value="vaccination">
                         <label class="checklabel" for = "checkvax">
-                            <img class = "vaccination-logo-wrapper hoverable"src = "../img/vaccination.png" srcset = "../img/vaccination@2x.png 2x, ../img/vaccination@3x.png 3x" alt = "vaccination logo">
+                            <div class = "vax-logo-wrapper  hoverable">
+                                <img class = "vaccination-logo-wrapper hoverable"src = "../img/vaccination.png" srcset = "../img/vaccination@2x.png 2x, ../img/vaccination@3x.png 3x" alt = "vaccination logo">
+                            </div>
                         </label>
-                    </div>
-                </form>
+                </form>               
+                 -->
+
             </div>
+
+            <div class = "next-2">
+                <a class = "nextbtn-2" href = "workflow_confirm.html"><img src = "/img/next.png" srcset = "/img/next@2x.png 2x, /img/next@3x.png 3x"></a>
+            </div>
+
         </div>
-       
-        <!--
-        <div>
-            <div class = "container-logo-1">
-                <img class = "language-logo" src = "../img/language.png" srcset = "../img/language@2x.png 2x, ../img/language@3x.png 3x" alt = "language logo">
-            </div>  
-            <div class = "container-logo-1">
-                <img class = "vaccination-logo"src = "../img/vaccination.png" srcset = "../img/vaccination@2x.png 2x, ../img/vaccination@3x.png 3x" alt = "vaccination logo">
-            </div>
-            <div class = "container-logo-1">
-                <img class = "temperature-logo" src = "../img/temperature.png" srcset = "../img/temperature@2x.png 2x, ../img/temperature@3x.png 3x" alt = "temperature logo">
-            </div>   
-            <div class = "container-logo-1">
-                <img class = "mask-logo" src = "../img/mask.png" srcset = "../img/mask@2x.png 2x, ../img/mask@3x.png 3x" alt = "mask logo">
-            </div>
-
-            <div class = "background-circle"></div>
-            
-        </div>
-        -->
-
-
-        
-
-
+    
+        <script type="text/javascript" src= "../js/page.js"></script>
         <script type="text/javascript" src="../js/materialize.min.js"></script> 
     </body>
 </html>

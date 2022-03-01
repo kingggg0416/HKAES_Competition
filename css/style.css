@@ -361,52 +361,46 @@ input[type=radio]:checked + .lblradio-2 {
     font-size: 0.5em;
 }
 
-.form-check-1 {
+.workflowselection-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.workflowselection-2 {
+    display: grid;
+    grid-gap: 20px;
+
+}
+
+.workflow-inputbtn{
+    display: none;
+}
+
+
+.lblradio-3{
+    color: rgb(0, 0, 0);
+    background-color: #e2eaf8;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-top: 30%;
+}
+
+.workflowselection-2 .lblradio-3 {
     margin-top: 10%;
-    text-align: center;
+    width: 35%;
+    padding: 5%;
 }
 
-.mask-logo-wrapper {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #e2eaf8;
-    border-radius: 50%;
-    padding: 2%;
-}
 
-.form-check-2 {
-    margin-top: 5%;
-    text-align: center;
-}
-
-.temperature-logo-wrapper {
-    display: inline-block;
-    width: 20vw;
-    height: 20vw;;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #e2eaf8;
-    border-radius: 50%;
-    padding: 2%;
-    margin-right: 10%;  
-}
-
-.vaccination-logo-wrapper {
-    display: inline-block;
-    width: 20vw;
-    height: 20vw;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #e2eaf8;
-    border-radius: 50%;
-    padding: 1%;
-    margin-left: 10%;
-}
-
-input[type=checkbox]:checked + .checklabel {
+input[type=checkbox]:checked + .lblradio-3 {
     background-color: #26c2f1;
 }
 
