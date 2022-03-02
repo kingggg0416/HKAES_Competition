@@ -28,14 +28,14 @@
 
             <div>
                 <form class = "workflowselection-1" action = "">
-                    <input class = "workflow-inputbtn" type="checkbox" id ="1" name = "workflowlist" value = "mask" onclick = "record_mask()">
+                    <input class = "workflow-inputbtn" type="checkbox" id ="1" name = "workflowlist" value = "mask" onclick = "set_config(this.value)">
                     <label for = "1" class = "lblradio-3 hoverable">
                         <div class = "display-box">
                             <img  src = "../img/mask.png" srcset = "../img/mask@2x.png 2x, ../img/mask@3x.png 3x" alt = "mask logo">
                         </div>
                     </label>
                     
-                    <input class = "lang-inputbtn" type="checkbox" id ="2" name = "workflowlist" value = "temperature" onclick = "record_temp()">
+                    <input class = "lang-inputbtn" type="checkbox" id ="2" name = "workflowlist" value = "temperature" onclick = "set_config(this.value)">
                     <label for = "2" class = "lblradio-3 hoverable">
                         <div class = "display-box">
                             <img src = "../img/temperature.png" srcset = "../img/temperature@2x.png 2x, ../img/temperature@3x.png 3x" alt = "temperature logo">
@@ -44,7 +44,7 @@
                 </form>
 
                 <form class = "workflowselection-2" action = "">
-                    <input class = "lang-inputbtn" type="checkbox" id ="3" name = "workflowlist" value = "vaccination" onclick = "record_vax()">
+                    <input class = "lang-inputbtn" type="checkbox" id ="3" name = "workflowlist" value = "vaccination" onclick = "set_config(this.value)">
                     <label for = "3" class = "lblradio-3 hoverable">
                         <div class = "display-box">
                             <img src = "../img/vaccination.png" srcset = "../img/vaccination@2x.png 2x, ../img/vaccination@3x.png 3x" alt = "vaccination logo">

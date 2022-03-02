@@ -379,11 +379,13 @@ input[type=checkbox]:checked + .lblradio-3 {
 
 /*  workflow_confirm.html */
 
+
 .workflow-confirm-design {
     color: rgb(0, 0, 0);
     font-family: Avenir-Black, sans-serif;
     font-size: 2.5rem;
     background-color: #e2eaf8;
+    margin-top: 5%;
     margin-bottom: 2%;
     width: 80%;
     margin-left: auto;
@@ -428,6 +430,12 @@ input[type=checkbox]:checked + .lblradio-3 {
     font-size: 0.5em;
 }
 
+.next-4 .nextbtn-4 {
+    display: block;
+    margin-top: 10%;
+    margin-right: 10%;
+    text-align: right;
+}
 
 
 
@@ -436,65 +444,62 @@ input[type=checkbox]:checked + .lblradio-3 {
 .congratulations{
     font-family: Avenir-Black , sans-serif;
     color: #151515;
-    font-size: 4vh;
+    font-size: 3rem;
     font-weight: 900;
-    margin: 8vh 40vw 2vh 4vw;
+    margin: 15% 40% 5% 7%;
 }
 
 .progressbar-5 {
     background-color: #dfddde;
-    width: 82vw;
-    height: 2vh;
+    width: 84%;
+    height: 6%;
     border-radius: 15px;
-    margin: 0vh 4vw;
+    margin-top: 5%;
+    margin-left: 7%;
     
 }
 
 .progressbar-5 .colorrectangle-5 {
+    position: absolute;
     background-color: #e0643a;
-    width: 82vw;
+    width: 100%;
     border-radius: 15px;
-    height: 2vh;
+    height: 100%;
 }
 
 .completemsg {
     font-family: Anveir-Black, sans-serif;
     color: #011318;
-    font-size: 4vh;
+    font-size: 3.5rem;
     font-weight: 900;
     text-align: center;
-    margin-top: 14vh;
+    margin-top: 20%;
 
 }
 
 .complete-logo {
     display: block;
-    width : 40vw;
+    max-width: 45%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vh;
+    margin-top: 5%;
 
 }
 
 .config-message {
-    width: 50vw;
+    width: 50%;
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2vh;
     text-align: center;
     font-family: Avenir, sans-serif;
-    font-size: 3vw;
+    font-size: 1.5rem;
 }
 
-.continue-2 {
+.next-5 .nextbtn-5 {
+    display: block;
+    margin-top: 10%;
+    margin-right: 10%;
     text-align: right;
-
 }
 
-.nextpage-2 {
-    display: inline-block;
-    width: 12vw;
-    margin-top: 4vh;
-    margin-right: 8vw;
-    
-}

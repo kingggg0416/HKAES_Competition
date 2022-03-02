@@ -7,9 +7,9 @@
         <title>The AI Guard</title>
         <!-- animate css-->
         <link type = "text/css" rel="stylesheet" href="../css/animate.css">
-        <!-- materialize icons, css & js -->
+         <!-- materialize icons, css & js -->
         <link type="text/css" href="../css/materialize.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">       
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
         <link type = "text/css" rel = "stylesheet" href = "../css/style.css">
     </head>
 
@@ -28,21 +28,21 @@
 
             <div>
                 <form class = "countryselection" action = "">
-                    <input type = "radio" id = "1" name = "countrylist" value = "Australia" class = "inputbtn" onclick = "record_country()">
+                    <input type = "radio" id = "1" name = "countrylist" value = "Australia" class = "inputbtn" onclick = "set_config('country',this.value)">
                     <label for="1" class = "lblradio hoverable">
                         <div class = "display-box">
                             <div>Australia</div>
                         </div>
                     </label> 
     
-                    <input type = "radio" id = "2" name = "countrylist" value = "Australia" class = "inputbtn"  onclick = "record_country()">
+                    <input type = "radio" id = "2" name = "countrylist" value = "Hong Kong, SAR" class = "inputbtn"  onclick = "set_config('country',this.value)">
                     <label for="2" class = "lblradio hoverable">
                         <div class = "display-box">
                             <div >Hong Kong, SAR</div>
                         </div>
                     </label> 
     
-                    <input type = "radio" id = "3" name = "countrylist" value = "Australia" class = "inputbtn"  onclick = "record_country()">
+                    <input type = "radio" id = "3" name = "countrylist" value = "New Zealand" class = "inputbtn"  onclick = "set_config('country',this.value)">
                     <label for="3" class = "lblradio hoverable">
                         <div class = "display-box">
                             <div>New Zealand</div>
@@ -58,7 +58,7 @@
 
 
 
-        
+        <script type="text/javascript" src= "../js/page.js"></script>
         <script type="text/javascript" src="../js/materialize.min.js"></script>
     </body>
 </html>

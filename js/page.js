@@ -1,52 +1,48 @@
-let user_input = {
+let config_options = {
     country : "",
     language: "",
-    check_mask: false,
-    check_temp: true,
-    check_vax: false
+    mask: false,
+    temperature: false,
+    vaccination: false
 }
+
+function init_config() {
+    sessionStorage.setItem("config_options", JSON.stringify(config_options));
+}
+
+function set_config(key, value = "") {
+    let obj = JSON.parse(sessionStorage.config_options);
+    
+    if(key == "country") {
+        obj.country = value;
+    }
+    else if(key == "language") {
+        obj.language = value;
+    }
+    else if(key == "mask") {
+        obj.mask = obj.mask? false : true;
+    }
+    else if (key == "temperature") {
+        obj.temperature = obj.temperature? false : true;
+    }
+    else if (key == "vaccination") {
+        obj.vaccination = obj.vaccination ? false: true; 
+    }
+    sessionStorage.setItem("config_options", JSON.stringify(obj));
+}
+
 
 function record_country(value) {
-    user_input.country = value;
+    config_options.country = value;
 }
 
-function record_language(value) {
-    user_input.language = value;
-}
-
-function record_mask() {
-    if(user_input.check_mask)
-        user_input.check_mask = false;
-    else
-        user_input.check_mask = true;
-    console.log("Mask:" + user_input.check_mask);
-}
-
-function record_temp() {
-    if(user_input.check_temp)
-        user_input.check_temp = false;
-    else
-        user_input.check_temp = true;
-    console.log("temp:" + user_input.check_temp);
-
-}
-
-function record_vax() {
-    if(user_input.check_vax)
-        user_input.check_vax = false;
-    else
-        user_input.check_vax = true;
-        console.log("Vax:" + user_input.check_vax);
-
-}
 
 function load_workflow() {
-    for (const key in user_input) {
-        console.log(key);
-        console.log(user_input[key]);
-        if(key == "check_mask" || key == "check_temp" || key == "check_vax") {
-            if(user_input[key] == true) {
-                console.log("true");
+    let obj = JSON.parse(sessionStorage.config_options);
+    console.log(obj);
+    for (const key in obj) {
+        if(key == "mask" || key == "temperature" || key == "vaccination") {
+            if(obj[key]) {
                 var new_div = document.createElement("div");
                 new_div.innerHTML = key;
                 new_div.setAttribute('class', 'workflow-confirm-design');
