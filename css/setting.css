@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.notice-panel {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height : 85%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15%;
+    background-color: bisque;
+
+}
+
+#lang-logo, #setting-logo {
+    display: block;
+    max-width: 40%;
+}
