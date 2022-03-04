@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Avenir;
+    src: url(../font/Avenir.otf);
+}
+@font-face {
+    font-family: Avenir-Black;
+    src: url(../font/Avenir-Black.otf);
+}
+@font-face {
+    font-family: Avenir-Roman;
+    src: url(../font/Avenir-Roman.otf);
+}
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -22,12 +37,19 @@ html, body{
     height : 85%;
     justify-content: center;
     align-items: center;
-    row-gap: 15%;
     background-color: bisque;
+    row-gap: 15%;
 
 }
 
-#lang-logo, #setting-logo {
+.wrapper {
+    font-family: Avenir;
     display: block;
-    max-width: 40%;
+    text-align: center;
+}
+
+.wrapper .text {
+    margin-top: 5%;
+    color: white;
+    font-size: 3rem;;
 }
