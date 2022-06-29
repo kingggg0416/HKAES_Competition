@@ -19,10 +19,18 @@ html, body{
 
 .container-2 {
     width: 100%;
-    height: 85%;
+    height: 75%;
     display: flex;
     position: relative;
 	/*border: 10px #333 solid;*/
+}
+
+.container-3 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #webcam {
@@ -46,7 +54,7 @@ html, body{
 }
 
 
-#setting-btn, #help-btn {
+#setting-btn, #help-btn  {
     display: flex;
     position: absolute;
     bottom: 5%;

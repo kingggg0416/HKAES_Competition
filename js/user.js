@@ -1,7 +1,7 @@
 const video = document.getElementById("webcam")
 const enableWebcamButton = document.getElementById("webcamButton")
 
-const model = await tf.loadLayersModel("../model.json")
+//const model = await tf.loadLayersModel("../model.json")
 
 function videoOn() {
   var video = document.querySelector("#webcam");
@@ -50,9 +50,9 @@ if (getUserMediaSupported()) {
 }
 
 function enableCam(event) {
-  if(!model) {
+  /*if(!model) {
     return;
-  }
+  }*/
   event.target.classList.add('removed');  
 
   // getUsermedia parameters to force video but not audio.
@@ -63,7 +63,7 @@ function enableCam(event) {
   navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
     video.srcObject = stream;
     document.getElementById("face-line").style.visibility = "visible";
-    video.addEventListener('loadeddata', predictWebcam);
+    //video.addEventListener('loadeddata', predictWebcam);
   });
 
 }
